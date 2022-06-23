@@ -1,0 +1,23 @@
+{
+  "visual": {
+    "name": "busVisual",
+    "displayName": "BusVisual",
+    "guid": "busVisual",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Built for MobiCascais",
+    "supportUrl": "https://github.com/fiuzwagger",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "3.8.0",
+  "author": {
+    "name": "Francisco Fiuza",
+    "email": "francisco.fiuza@devscope.net"
+  },
+  "assets": { "icon": "assets/icon.png" },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}

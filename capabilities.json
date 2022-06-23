@@ -1,0 +1,48 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Bus Data",
+      "name": "measure",
+      "kind": "Measure"
+    }
+  ],
+  "objects": {
+    "bus": {
+      "displayName": "Bus Settings",
+      "properties": {
+        "busColor": {
+          "displayName": "Bus Color",
+          "description": "The fill color of the bus.",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "busThickness": {
+          "displayName": "Bus Thickness",
+          "description": "The bus thickness.",
+          "type": {
+            "numeric": true
+          }
+        }
+      }
+    }
+  },
+  "dataViewMappings": [
+    {
+      "conditions": [
+        {
+          "measure": {
+            "max": 1
+          }
+        }
+      ],
+      "single": {
+        "role": "measure"
+      }
+    }
+  ]
+}

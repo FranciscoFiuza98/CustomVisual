@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Francisco Fiuza","email":"francisco.fiuza@devscope.net"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/busVisual.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"busVisual","displayName":"BusVisual","guid":"busVisual","visualClassName":"Visual","version":"1.0.0","description":"Built for MobiCascais","supportUrl":"https://github.com/fiuzwagger","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
